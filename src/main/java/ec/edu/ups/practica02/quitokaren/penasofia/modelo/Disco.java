@@ -1,22 +1,15 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package ec.edu.ups.practica02.quitokaren.penasofia.modelo;
 
 import java.util.Objects;
 
-/**
- *
- * @author ACER
- */
 public class Disco {
     //atributos de Disco
     private int codigo;
     private String nombre;
     private int anioDeLazamiento;
 //constructor vacio
-    public Disco() {
+    public Disco() {    
     }
     
 //constructor con todos los parametros

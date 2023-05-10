@@ -3,10 +3,7 @@ package ec.edu.ups.practica02.quitokaren.penasofia.modelo;
 
 import java.util.Objects;
 
-/**
- *
- * @author ACER
- */
+
 public class Cancion {
     //atributos
     private int codigo;

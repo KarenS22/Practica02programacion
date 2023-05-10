@@ -1,15 +1,9 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Interface.java to edit this template
- */
+
 package ec.edu.ups.practica02.quitokaren.penasofia.controlador;
 
 import ec.edu.ups.practica02.quitokaren.penasofia.modelo.Persona;
 
-/**
- *
- * @author ACER
- */
+
 public interface IControlador {
     //constante que se usa para arreglos [], no necesario para listas que se uso en este proyecto
     public int MAX_OBJECTS = 10;

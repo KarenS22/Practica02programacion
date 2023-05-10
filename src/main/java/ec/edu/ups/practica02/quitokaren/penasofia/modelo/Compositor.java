@@ -98,7 +98,8 @@ public class Compositor extends Persona {
         } else if (cancionesTop100Billboard.size()> 6){
             aumento += (salariob * 0.2);
         }
-        return salariofinal + aumento;
+        super.setSalario(salariofinal + aumento);
+        return super.getSalario();
     }
     
     /*

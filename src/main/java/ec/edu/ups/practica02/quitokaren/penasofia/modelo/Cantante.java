@@ -42,13 +42,14 @@ public class Cantante extends Persona{
             salariof +=1000;
         } else if(numeroDeSencillos >=1 && numeroDeSencillos<=10){
             aumento +=(salariob* 0.05);
-        } else if(numeroDeGiras>= 1 && numeroDeGiras <+3){
+        } else if(numeroDeGiras>= 1 && numeroDeGiras <=3){
             aumento+= (salariob* 0.03);
         } else if (discografia.size()>=5 ){
             salariof+=2000;
         }
+        super.setSalario(salariof + aumento);
             
-        return salariof + aumento;
+        return super.getSalario();
     }
     
     /*

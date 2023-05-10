@@ -8,10 +8,7 @@ import ec.edu.ups.practica02.quitokaren.penasofia.controlador.ControladorPersona
 import ec.edu.ups.practica02.quitokaren.penasofia.controlador.IControlador;
 import java.util.Scanner;
 
-/**
- *
- * @author ACER
- */
+
 public class Principal {
 
     public static void main(String[] args) {
